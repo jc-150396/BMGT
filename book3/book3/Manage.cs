@@ -54,7 +54,7 @@ namespace book3
 
                 try
                 {
-                    //データベースに指定したSQLを発行します
+                    //データベースに指定したSQLを発行します。。
                     return db.Query<Manage>("SELECT [camera_bool] FROM [Manage]");
 
                 }
